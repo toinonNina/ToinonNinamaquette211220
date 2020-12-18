@@ -1,40 +1,76 @@
 body {
   background-color: #f4f4f4;
-  margin: 5px;
+  font-family: "roboto", sans-serif;
 }
 #container {
   border: 1px solid black;
 }
 /*--- Corps ---- */
 header {
-  left: 0;
-  right: 0;
+  display: flex;
+  border: 1px solid black;
 }
 
 header img {
-  height: 60px;
+  height: auto;
   width: 100%;
 }
 /*--- Corps ---- */
 nav {
-  display: grid;
   background-color: #e9eaed;
+  height: auto;
+  display: flex;
+  justify-content: center;
 }
-
+nav ul {
+  list-style: none;
+}
 nav li {
   display: inline-block;
-  list-style: none;
+  border-radius: 5px;
   background-color: #fd5f00;
   color: white;
+  width: 70px;
+  text-align: center;
+  padding: 10px;
+  margin-right: 35px;
+  margin-bottom: 15px;
+}
+nav li a {
 }
 
 /*--- Corps ---- */
 main {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+}
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px 20px 0 20px;
+  font-weight: bolder;
+}
+
+.majuscule {
+  font-size: 1.4em;
+  font-weight: bolder;
 }
 
 /*--- article ---- */
+article {
+  background-color: white;
+  padding: 10px;
+}
+
+h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bolder;
+}
+
+article p {
+  text-align: justify;
+  font-size: 0.9em;
+}
 
 /*--- aside ---- */
 
