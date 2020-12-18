@@ -1,0 +1,43 @@
+body {
+  background-color: #f4f4f4;
+  margin: 5px;
+}
+#container {
+  border: 1px solid black;
+}
+/*--- Corps ---- */
+header {
+  left: 0;
+  right: 0;
+}
+
+header img {
+  height: 60px;
+  width: 100%;
+}
+/*--- Corps ---- */
+nav {
+  display: grid;
+  background-color: #e9eaed;
+}
+
+nav li {
+  display: inline-block;
+  list-style: none;
+  background-color: #fd5f00;
+  color: white;
+}
+
+/*--- Corps ---- */
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+/*--- article ---- */
+
+/*--- aside ---- */
+
+/*--- footer ---- */
+
+/*--- Responsive ---- */
