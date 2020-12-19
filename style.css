@@ -1,0 +1,168 @@
+body {
+  background-color: #f4f4f4;
+  font-family: 'Montserrat', sans-serif;
+}
+#container {
+  border: 1px solid rgba(111,106,106,0.2);
+    width: 1082px;
+    margin: auto;
+}
+/*---header*/
+header img {
+    height: auto;
+    width: 100%;
+    
+}
+/*--- nav ---- */
+nav {
+  background-color: #e9eaed;
+padding:10px 10px;
+    margin-top: -5px;
+    border: 1px solid rgba(111,106,106,0.2);
+}
+nav ul {display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+    justify-content: space-between;
+  
+}
+nav li {
+  
+  border-radius: 5px;
+  background-color: #fd5f00;
+  padding: 10px 10px;
+  width: 70px;
+  text-align: center;
+  margin: 0 90px 0 50px;
+
+}
+/*--- Corps ---- */
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 50px 20px 0 20px;
+  font-weight: bolder;
+}
+h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 900;
+}
+
+.majuscule {
+  font-size: 1.4em;
+  font-weight: bolder;
+}
+main { display: flex;
+    
+   
+}
+/*--- article ---- */
+article {
+  background-color: white;
+  padding: 10px;
+    width:90%; 
+    
+}
+article p {
+  text-align: justify;
+    font-size: 0.85em;
+    
+}
+
+/*--- aside ---- */
+
+aside {
+  background-color: #e9eaed;
+  width:30%;
+  padding-left: 10px;
+  padding-right: 10px;
+border: 1px solid rgba(111,106,106,0.2);
+}
+
+aside ul {
+  display: inline;
+  list-style: none;
+  font-size: 0.9em;
+}
+
+aside li {
+  border-bottom: 1px solid rgba(111,106,106,0.5);
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/*--- footer---- */
+
+footer {
+  background-color: #e9eaed;
+  padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  justify-content: space-between;
+    border: 1px solid rgba(111,106,106,0.2);
+}
+
+.foot ul {
+  list-style: none;
+  font-size: 0.9em;
+padding-top: 20px;
+  
+    
+}
+
+.foot li {
+    text-align: center;
+  margin: 0px 150px 0 50px;
+    padding:10px 10px;
+    
+}
+
+/*--- link ---- */
+
+nav ul li a:link {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:visited {
+  color: white;
+}
+
+nav ul li a:hover {
+  color: white;
+}
+
+nav ul a:active {
+  color: white;
+}
+
+aside li a:link {
+  color: #fd5f00;
+  text-decoration: none;
+}
+
+aside li a:visited {
+  color: #fd5f00;
+}
+
+aside ul li:hover {
+  background-color: white;
+}
+
+aside ul li a:active {
+  color: #fd5f00;
+}
+
+footer ul li a:link {
+  color: #fd5f00;
+  text-decoration: none;
+}
+
+footer ul li a:visited {
+  color: #fd5f00;
+}
+
+footer li a:hover {
+  color: #fd5f00;
+}
