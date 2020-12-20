@@ -206,7 +206,7 @@ footer li a:hover {
     font-size: 0.8em;
   }
   aside li {
-    padding: 0 20px 10px 20px;
+    padding: 10px 20px 10px 20px;
   }
   footer {
     background-color: #e9eaed;
@@ -217,7 +217,7 @@ footer li a:hover {
   }
   .foot li {
     text-align: center;
-    margin: 0px 0px 0 -280px;
+    margin: 0 120px 0 0;
   }
 }
 /* ##Device = Most of the Smartphones Mobiles (Portrait)
@@ -254,8 +254,54 @@ footer li a:hover {
   }
   footer {
     border: 0px;
+    display: block;
+  }
+
+  .foot li {
+    text-align: center;
+    margin: 0 110px 0 30px;
+    
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
   /* CSS */
+
+  #container {
+    width: 100%;
+    margin: auto;
+  }
+  header {
+    width: 100%;
+  }
+  nav ul {
+    font-size: 0.9em;
+  }
+  nav li {
+    padding: 5px 5px;
+    width: 55px;
+    margin: 10px 40px 0 0;
+  }
+  main {
+    display: block;
+  }
+  article {
+    width: auto;
+  }
+  article p {
+    font-size: 0.8em;
+  }
+  aside {
+    border-left: 0px;
+    border-top: 1px solid rgba(111, 106, 106, 0.2);
+  }
+  footer {
+    border: 0px;
+    
+  }
+
+  .foot li {
+    
+    
+  }
+}
 }
