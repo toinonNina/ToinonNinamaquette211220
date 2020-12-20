@@ -18,12 +18,12 @@ nav {
   background-color: #e9eaed;
 padding:10px 10px;
     margin-top: -5px;
-    border: 1px solid rgba(111,106,106,0.2);
+    border-bottom: 1px solid rgba(111,106,106,0.2);
 }
 nav ul {display: flex;
   list-style: none;
   flex-wrap: wrap;
-    justify-content: space-between;
+justify-content: space-between;
   
 }
 nav li {
@@ -53,15 +53,16 @@ h2 {
   font-size: 1.4em;
   font-weight: bolder;
 }
-main { display: flex;
-    
+
+ main { display: flex;   
    
 }
 /*--- article ---- */
 article {
   background-color: white;
   padding: 10px;
-    width:90%; 
+    Flex:3;
+     
     
 }
 article p {
@@ -74,10 +75,10 @@ article p {
 
 aside {
   background-color: #e9eaed;
-  width:30%;
+  flex:1;
   padding-left: 10px;
   padding-right: 10px;
-border: 1px solid rgba(111,106,106,0.2);
+border-left: 1px solid rgba(111,106,106,0.2);
 }
 
 aside ul {
@@ -113,7 +114,7 @@ padding-top: 20px;
 
 .foot li {
     text-align: center;
-  margin: 0px 150px 0 50px;
+  margin: 0px 150px 0 90px;
     padding:10px 10px;
     
 }
@@ -165,4 +166,132 @@ footer ul li a:visited {
 
 footer li a:hover {
   color: #fd5f00;
+}
+
+/*responsive*/
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media screen and (min-width : 768px) and (max-width : 1024px) {
+     /* CSS */
+    #container {
+        width:100%;
+        margin: auto;
+    }
+    header {
+        width: 100%;
+    }
+    nav ul {
+    font-size: 0.7em;
+} 
+   nav li {
+  padding: 5px 5px;
+  width: 55px;
+  margin : 0 40px 0 0;  
+    }  
+    main {
+       display: block;
+    } 
+    article { 
+       width: auto;    
+    }
+    
+    article p {
+        
+        font-size: 0.9em;
+    }
+    aside { border-left: 0px;
+        border-top: 1px solid rgba(111,106,106,0.2);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    aside div {
+        
+       
+        margin: 20px 10px 20px 20px;
+         
+    }
+    aside ul{
+      font-size: 0.8em;
+
+    }
+    
+   
+    
+    aside li {
+      padding : 0 20px 10px 20px;
+    }
+    
+    #commentaire {
+        
+    }
+    
+    
+   footer {
+  background-color: #e9eaed;
+  padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+  border: 0px solid rgba(111,106,106,0.2);
+    
+}
+
+.foot li {
+    text-align: center;
+  margin: 0px 0px 0 -280px;
+    
+    
+}
+
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  /* CSS */
+       #container {
+        width:100%;
+        margin: auto;
+    }
+    header {
+        width: 100%;
+    }
+   nav ul {
+    font-size: 0.9em;
+} 
+   nav li {
+  padding: 5px 5px;
+  width: 55px;
+  margin : 10px 40px 0 0;  
+    } 
+    
+      main {
+       display: block;
+    } 
+    article { 
+       width: auto;    
+    }
+    
+    article p {
+        
+        font-size: 0.8em;
+    }
+    
+     aside { border-left: 0px;
+         border-top: 1px solid rgba(111,106,106,0.2);}
+    footer {
+        border: 0px ;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  /* CSS */
+  
 }
