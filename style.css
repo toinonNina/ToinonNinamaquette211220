@@ -23,7 +23,7 @@ nav ul {
   display: flex;
   list-style: none;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 nav li {
   border-radius: 5px;
@@ -166,7 +166,7 @@ footer li a:hover {
   ##Screen = B/w 768px to 1024px
 */
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   /* CSS */
   #container {
     width: 100%;
@@ -212,7 +212,8 @@ footer li a:hover {
     background-color: #e9eaed;
     padding-bottom: 20px;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction:row;
+    justify-content: space-around;
     border: 0px solid rgba(111, 106, 106, 0.2);
   }
   .foot li {
@@ -254,13 +255,14 @@ footer li a:hover {
   }
   footer {
     border: 0px;
-    display: block;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
 
   .foot li {
     text-align: center;
     margin: 0 110px 0 30px;
-    
   }
 }
 @media (min-width: 481px) and (max-width: 767px) {
@@ -296,12 +298,9 @@ footer li a:hover {
   }
   footer {
     border: 0px;
-    
+    display: flex;
+    flex-direction: column;
+    text-align: center;
   }
-
-  .foot li {
-    
-    
   }
-}
 }
